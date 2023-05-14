@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Dashboard_scannGuard{
+    background-image: url(../../img/scannGuard/tbn10.jpg);
+    background-size: 100% 100%;
+    height: 90vh;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scannCart{
+    padding: 8rem;
+}
+
+
+
+@media(min-width:280px) and (max-width:540px){
+    #scannCart{
+        padding: 4rem;
+    }
+}

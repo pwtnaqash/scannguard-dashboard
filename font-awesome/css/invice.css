@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_Invoice{
+    background-color: white;
+    padding: 1rem;
+}
+.invice_header{
+    background-color: rgb(182, 180, 180);
+    border-radius: 0.3rem;
+}
+.invice_header h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.3rem 0.7rem;
+    font-family: 'Lora', serif;
+}
+#inner_innvoice{
+    padding: 0 !important;
+    margin: 0;
+    /* background-color: aqua; */
+    background-color: rgba(220, 220, 220, 0.664);
+}
+#inner_innvoice th{
+    font-size: 1rem;
+    text-transform: capitalize;
+    width: 35%;
+    padding: 0.2rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    border: 1px solid silver !important;
+}
+#set_inputs{
+    width: 100% !important;
+}
+#set_inputs td{
+    padding: 0.2rem !important;
+    border: 1px solid silver;
+    width: 100% !important;
+}
+#set_inputs input{
+    width: 100% !important;
+    padding: 0.1rem 1rem !important;
+    text-transform: capitalize;
+}
+::-webkit-input-placeholder{
+    font-size: 0.8rem !important;
+}
+input[type="date"]
+{
+    font-size:1rem;
+}
+
+#invoice_btn{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(182, 180, 180);
+}
+#invoice_btn h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 0.7rem;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+#invoice_btn button{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 0.2rem 0.4rem;
+    background-color: green;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+#inner_item_invoice{
+    padding: 1rem !important;
+    margin: 0.2rem;
+    margin-top: 0.8rem;
+}
+#inner_item_invoice th{
+    border: 1px solid silver ;
+    background-color: white;
+}
+#inner_item_invoice td{
+    padding: 0.5rem !important;
+    border: 1px solid silver  ;
+    background-color: white;
+}
+
+#inner_item_invoice input{
+    padding: 0.1rem 0.5rem;
+    outline: none;
+    border: 1px solid silver;
+}
+
+
+.invoice_last{
+    display: flex !important;
+    justify-content: space-between;
+}
+.invoice_last th{
+    width: 40% !important;
+}
+.invoice_last td{
+    width: 270% !important;
+}
+.invoice_last_first{
+    align-items: center;
+    width: 35%;
+    padding: 0.3rem;
+    background-color: white;
+}
+.invoice_last_first h3{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid gainsboro;
+    font-family: 'Lora', serif;
+}
+.invoice_last_second{
+    width: 75%;
+    padding: 0.3rem;
+    background-color: white;
+}
+.invoice_last_second input{
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid gainsboro;
+    font-family: 'Lora', serif;
+    width: 100% !important;
+}
+#save_invoice{
+    width: 20%;
+    margin: 1rem 0.3rem;
+    padding: 1rem;
+    border: 1px solid white;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    border-radius: 0.2rem;
+}
