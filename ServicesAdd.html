@@ -49,20 +49,33 @@
                         <a href="index.html"><i class="fa fa-th-large"></i> <span
                                 class="nav-label">ScannGuard</span></a>
                     </li>
+                    <li class="active">
+                        <a href="about.html"><i class="fa fa-th-large"></i> <span
+                                class="nav-label">About</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">user</span><span
+                                class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="./user.html">All user</a></li>
+                            <li><a href="./UserPending.html">Pendding User</a></li>
+                            <li><a href="./UserDelete.html">Delete User</a></li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Services</span><span
                                 class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li><a href="./servicesList.html">All Services</a></li>
-                            <li><a href="graph_rickshaw.html">Edit Services</a></li>
-                            <li><a href="graph_morris.html">Create Services</a></li>
+                            <li><a href="./ServicesEdit.html">Edit Services</a></li>
+                            <li><a href="./ServicesAdd.html">Create Services</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Blog</span><span
                                 class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
-                            <li><a href="graph_flot.html">All Services</a></li>
+                            <li><a href="./BlogList.html">All Blog</a></li>
                             <li><a href="graph_rickshaw.html">Edit Services</a></li>
                             <li><a href="graph_morris.html">Create Services</a></li>
                         </ul>
@@ -236,7 +249,7 @@
             </div>
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
                             <h5>Servics Add </h5>
@@ -258,12 +271,15 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="ibox-content">
-                            <!-- <img src="./img/a1.jpg" alt="" style="width: 100%;"> -->
-                            <input type="file" style="width: 100%;border: 1px solid #eeeeee;padding: 3rem;" >
-                            <textarea name="" placeholder="Enter services Name" id="" cols="30" rows="3" style="width: 100%;border: 1px solid #eeeeee;margin-top: 1rem;"  ></textarea>
-                            <textarea name="" placeholder="Enter services details" id="" cols="30" rows="4" style="width: 100%;border: 1px solid #eeeeee;margin-top: 1rem;"  ></textarea>
-                    </div>
+                        <div class="ibox-content"  id="about_scann">
+                            <input type="file" name="" id="">
+                                <input type="text" placeholder="Title" name="" id="">
+                                <br>
+    
+                                <textarea placeholder="description" name="" id="" cols="30"
+                                    rows="5">
+                                </textarea>
+                        </div>
                 </div>
             </div>
 

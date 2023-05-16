@@ -12,8 +12,43 @@
     justify-content: center;
     align-items: center;
 }
+#Dashboard_scannGuard1{
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #scannCart{
-    padding: 8rem;
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    /* background-color: aqua; */
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(230, 63, 63, 0.2), 0 6px 20px 0 rgba(25, 87, 219, 0.19);
+}
+#login_form input{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid silver;
+    border-radius: 0.3rem;
+}
+#login_form button{
+    padding: 1rem 4rem;
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 0.3rem;
+    background-color: #2f4050;
+}
+#login_form h1{
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 
